@@ -489,7 +489,7 @@ void showAccelerator( void ){
 	std::cout << "=======Devices======" << std::endl;
 	for( auto itr = accs.begin(); itr != accs.end(); ++itr ){
 		std::wcout <<  itr->get_description() << std::endl;
-		std::cout << "Shared memory suporte:";
+		std::cout << "Shared memory support:";
 		if( itr->supports_cpu_shared_memory ){
 			std::cout << "[O]" << std::endl;
 		}else{
