@@ -2,7 +2,7 @@
 //
 // original AOBench: http://code.google.com/p/aobench/
 // C++ AMP RNG Library: http://amprng.codeplex.com/
-
+// MirageYM
 
 #define AO_USE_AMP_
 
